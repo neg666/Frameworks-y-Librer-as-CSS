@@ -1,0 +1,100 @@
+html{
+  width: 90%;
+  margin:0 auto;
+  height: 100%;
+  background-color: rgb(120, 0, 0);
+}
+header{
+  margin-bottom: 10px;
+}
+
+.imagenlogo{
+max-width: 200px;
+max-height: 200px;
+display: inline-block;
+vertical-align: middle;
+
+}
+.sociales{
+  text-align: right;
+  display: inline-table;
+  margin-top: 11%;
+}
+
+
+    .fa-facebook {
+        background: blue;
+        color: white;}
+
+    .fa-youtube {
+        background: red;
+        color: white;}
+
+    .fa-instagram {
+        background: orange;
+        color: white;}
+
+    .fa-pinterest {
+        background: red;
+        color: white;}
+
+    .fa-twitter {
+        background: blue;
+        color: white;}
+.blue{
+  background-color: blue;
+}
+.red{
+  background-color: red;
+}
+.orange{
+  background-color: orange;
+}
+
+.green{
+  background-color: green;
+}
+.imagenlogo{
+  width: 100%;
+}
+
+.nav{
+  background-color: rgb(253, 118, 61);
+  border-radius: 10px;
+}
+
+
+.style{
+  width: 100%;
+  margin-top: 25%;
+}
+
+
+table{
+  cursor: pointer;
+}
+
+p {
+  text-align: justify;
+}
+li a {
+  color:white;
+}
+
+
+@media all and (max-width: 900px) {
+.sociales{
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+.col-xs-3{
+  margin-top: 0%;
+}
+.imagenlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+}
